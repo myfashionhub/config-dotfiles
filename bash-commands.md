@@ -1,11 +1,13 @@
 # Bash commands
 
-* Sym link:
-`$ ln -s [current path] [symbolic path]`
+* Make sym link:
+```$ ln -s [current path] [symbolic path]```
 
 * Find file:
-`$ find . -type f -name '[file name]'`
-`$ find . -print | grep '\.java'`
+```
+$ find . -type f -name '[file name]'
+$ find . -print | grep '\.java'
+```
 
 * Curl with headers
 ```

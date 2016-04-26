@@ -23,3 +23,8 @@ $ curl https://api.dailymotion.com/me
 ```
 $ curl --globoff 'http://localhost:3000?value1[]=1'
 ```
+
+* Pretty print JSON in command line: install `jq` library ( `$ brew install jq` )
+```
+$ curl [URL that returns JSON] | jq .
+```

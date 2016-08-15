@@ -10,6 +10,11 @@ $ find . -print | grep '\.java'
 ```
 [Find file](http://stackoverflow.com/questions/656741/find-file-in-directory-from-command-line)
 
+* Change file permissions:
+```
+$ chmod 664 [filename]
+```
+
 ## cURL
 * Curl with headers
 ```

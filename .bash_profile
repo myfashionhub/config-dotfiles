@@ -1,3 +1,6 @@
+# PATH
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+
 # show slashes for directories
 alias ls='ls -F'
 

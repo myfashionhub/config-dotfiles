@@ -8,3 +8,11 @@ use command line.
 
 ### Tools
 - [Git-aware prompt](https://github.com/jimeh/git-aware-prompt)
+
+### Key mapping:
+- Chrome:
+  + `CTRL + I`: Open Developer Tools   
+
+- Terminal:
+  + Home: `\033[H`   
+  + End: `\033[F`   

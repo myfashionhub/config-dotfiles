@@ -113,7 +113,7 @@
   "match_tags": true,
   "move_to_limit_on_up_down": false,
   "open_files_in_new_window": true,
-  "overlay_scroll_bars": "system",
+  "overlay_scroll_bars": "disabled",
   "preview_on_click": true,
   "remember_open_files": true,
   "rulers":

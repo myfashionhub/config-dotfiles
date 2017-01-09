@@ -12,4 +12,8 @@
 # Count number of distinct values
 > SELECT count( DISTINCT(column_name) ) FROM table;
 
+# Search by a column value
+# Use quotes for string values
+> SELECT * FROM [table name] WHERE [column name] = [value];
+
 ```

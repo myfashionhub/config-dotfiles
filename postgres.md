@@ -34,11 +34,20 @@ postgres=# \q               # Quit shell
 ### Queries
 ```sql
 # Select unique values from column
-> SELECT DISTINCT [column name] FROM
+> SELECT DISTINCT ON ([column name]) FROM
 
 # Select multiple columns, group and sort
 > SELECT [column 1], [column 2] AS [alias 1], [alias 2]
   GROUP BY [alias 1] SORT BY [alias 2]
+```
+
+### Redshift
+```sql
+# Select unique values from column
+> SELECT DISTINCT [column name] FROM
+
+# Count number of unique values
+> SELECT COUNT(DISTINCT [column name]) FROM
 ```
 
 ### Tutorials

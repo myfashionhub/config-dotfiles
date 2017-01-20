@@ -15,6 +15,11 @@
 > SELECT count( DISTINCT(column_name) ) FROM table;
 
 # Search by a column value. Quotes represent string values
-> SELECT * FROM [table name] WHERE [column name] = "[value]";
+> SELECT * FROM table WHERE column = "value";
 
+# Search case-insensitive with wildcard
+> SELECT * FROM table WHERE LOWER(table.column) LIKE '%term%';
+
+# Sort by column
+> SELECT * FROM table ORDER BY column ASC/DESC;
 ```

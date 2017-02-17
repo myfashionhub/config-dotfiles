@@ -1,10 +1,22 @@
 ## Git
 
-```
+- Working with remotes:
+```sh
 $ git remote show [remote name]  # show branches on a remote
-$ git branch -a                  # show all branches
 $ git remote prune [remote name] # prune branches on a remote
 $ git fetch --all --prune        # prune remote branches that no longer exist on remote from local
+```
+
+- Branches:
+```sh
+$ git branch -a                  # show all branches
+```
+
+- Stash:
+```sh
+$ git stash list                 # List all stashes
+$ git stash pop stash@{1}        # Pop stash with index
+$ git stash clear                # Clear all stashes
 ```
 
 ### Disaster response

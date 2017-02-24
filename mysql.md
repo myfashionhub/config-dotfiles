@@ -23,3 +23,8 @@
 # Sort by column
 > SELECT * FROM table ORDER BY column ASC/DESC;
 ```
+### Update
+```sql
+> UPDATE [table name] SET columnA=[columnA value], columnB=[columnB value]
+  WHERE columnX=[columnX value];
+```

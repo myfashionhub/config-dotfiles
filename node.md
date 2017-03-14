@@ -1,19 +1,23 @@
 ## Node, nvm & npm
 
 ### Installation
-  - Install Node & NPM:
-```
+- [Install nvm](https://github.com/creationix/nvm)
+  - Installer adds this to .bashrc `[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"` Need to source .bashrc
+  - Version 0.10x comes with npm
+
+```bash
 $ brew install node
 $ brew update
 $ brew upgrade node
 ```
+- Manage node versions
+```bash
+# List local node versions
+$ nvm list
 
-  - [Install nvm](https://github.com/creationix/nvm)
-    - Installer adds this to .bashrc `[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"` Need to source .bashrc
-    
-    - Set default node version on a shell `nvm alias default [node version]`
-
-    - Version 0.10x comes with npm
+# Set alias for node version
+$ nvm alias default [node version]
+```
 
 ### Updating
   * Install new version: `nvm install [version]`

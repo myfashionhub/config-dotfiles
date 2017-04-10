@@ -41,6 +41,8 @@ postgres=# \q               # Quit shell
   GROUP BY [alias 1] SORT BY [alias 2]
 ```
 
+- [All the joins](https://www.codeproject.com/kb/database/visual_sql_joins.aspx)
+
 ### Redshift
 ```sql
 # Select unique values from column

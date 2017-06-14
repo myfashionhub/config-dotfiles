@@ -20,8 +20,8 @@ $ chmod 664 [filename]
 ```
 $ curl https://api.dailymotion.com/me
 --header "Authorization: Bearer ajgQREwTQwUSFh9GWxsCSQNWCAFMCh1TVw"
---data # post request
--X POST
+# -H "Content-Type: application/json"
+-X POST --data '{"key": "value", "array": [1, 2, 3]}' # post request
 ```
 
 * Curl URLs with brackets:

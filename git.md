@@ -1,6 +1,6 @@
 ## Git
 
-- Working with remotes:
+- Remotes:
 ```sh
 $ git remote show [remote name]  # show branches on a remote
 $ git remote prune [remote name] # prune branches on a remote
@@ -19,10 +19,20 @@ $ git stash pop stash@{1}        # Pop stash with index
 $ git stash clear                # Clear all stashes
 ```
 
-### Disaster response
+- Resolving conflicts: If you know which version you want to keep
+```
+git checkout --ours path/to/file
+git checkout --theirs path/to/file
+```
+
+### Gitastrophe response
 - Revert a merge commit: Create a new branch that reverts all the changes
 ```
 $ git revert <sha>
 ```
 
-- [Restore a deleted branch](https://confluence.atlassian.com/bbkb/how-to-restore-a-deleted-branch-765757540.html)
+- Restore a recently [deleted branch](https://confluence.atlassian.com/bbkb/how-to-restore-a-deleted-branch-765757540.html):
+```
+$ git reflog # Find the sha of deleted branch
+$ git checkout -b <branch> <sha>
+```

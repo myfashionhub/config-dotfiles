@@ -1,3 +1,20 @@
+## Rbenv
+
+```
+# See all Ruby versions available
+$ rbenv install --list
+
+$ rbenv install [Ruby version]
+
+# Regenerate shims, which find the correct versions of Ruby commands
+$ rbenv rehash
+```
+
+## Gems
+```
+$ gem install [name] [version]
+```
+
 
 ## Methods
 

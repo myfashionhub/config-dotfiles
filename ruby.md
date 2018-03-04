@@ -6,6 +6,11 @@ $ rbenv install --list
 
 $ rbenv install [Ruby version]
 
+# Change ruby version for shell, global or local
+$ rbenv global 2.3.3
+$ rbenv local 2.3.3
+$ rbenv shell 2.3.3
+
 # Regenerate shims, which find the correct versions of Ruby commands
 $ rbenv rehash
 ```

@@ -4,9 +4,12 @@
 ```sql
 > SHOW DATABASES;
 > USE [db name];     # Connect to db
+> \q                 # Quit shell
+> SELECT VERSION();  # See version
+> SHOW VARIABLES LIKE "%version%";
+
 > SHOW TABLES;
 > DESCRIBE [table];  # Show columns of table
-> \q                 # Quit shell
 ```
 
 ### Select

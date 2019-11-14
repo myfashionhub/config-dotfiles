@@ -17,7 +17,8 @@ use command line.
   + Home: `\033[H`   
   + End: `\033[F`   
 
-### subl command
+### Sublime
+#### Enable subl command in Terminal
 - Make sure bin is in your PATH:
 ```
 # bash_profile
@@ -30,3 +31,6 @@ export EDITOR='subl -w'
 $ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 ```
 
+#### Package Control
+- Install package control: `CMD + Shift + P`, search for Package Control.
+- To install subsequent packages: `CMD + Shift + P` => select Install Package and search for package by name.

@@ -69,7 +69,8 @@
     ".DS_Store",
     "*.class",
     "*.psd",
-    "*.db"
+    "*.db",
+    "*.map"
   ],
   "find_selected_text": true,
   "fold_buttons": true,

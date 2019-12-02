@@ -11,7 +11,7 @@ use command line.
 
 ### Key mapping:
 - Add app shortcuts, e.g. Chrome: Click on System Preferences -> Search for Keyboard Shortcuts -> App Shortcuts. Click + button to add new shortcuts. Choose application in the dropdown, copy the exact menu item name into Menu Title, and enter key combo for Keyboard Shortcut.
-  + `CTRL + I`: Open Developer Tools   
+  + `CTRL + I`: Developer Tools
 
 - Add Terminal shortcuts: Open Terminal -> Preferences -> Keyboard. Click + button to add new shortcuts.
   + Home: `\033[H`   

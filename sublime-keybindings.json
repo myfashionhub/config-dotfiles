@@ -5,7 +5,6 @@ and don't need to be repeated here. Anything listed here will take precedence, h
 [
   { "keys": ["home"], "command": "move_to", "args": {"to": "bol"} },
   { "keys": ["end"], "command": "move_to", "args": {"to": "eol"} },
-
   { "keys": ["super+shift+n"], "command": "new_window" },
   { "keys": ["super+shift+w"], "command": "close_window" },
   { "keys": ["super+o"], "command": "prompt_open" },

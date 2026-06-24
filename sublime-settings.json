@@ -85,7 +85,7 @@
   "font_options":
   [
   ],
-  "font_size": 16.0,
+  "font_size": 14.0,
   "gpu_window_buffer": "auto",
   "gutter": true,
   "highlight_line": false,
@@ -136,7 +136,7 @@
   "translate_tabs_to_spaces": true,
   "tree_animation_enabled": true,
   "trim_automatic_white_space": true,
-  "trim_trailing_white_space_on_save": false,
+  "trim_trailing_white_space_on_save": true,
   "use_simple_full_screen": false,
   "use_tab_stops": true,
   "word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
